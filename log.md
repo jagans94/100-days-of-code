@@ -1,30 +1,23 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+## List of Projects:
+- Learning Pytorch by porting the following [implementation]( https://github.com/emilwallner/Coloring-greyscale-images) from Keras.
+- To be added...
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+### Day 0: March 9th, 2019
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Today's Progress**: Set up a GCP account to do some deep learning. 
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Thoughts:** Done this before, but it seems there were some problems with permissions, authorizations etc. with my gcloud SDK client. It was horribly out of date. So fixed it up and got an instance up and running.
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+**Link to work:** Will add soon.
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+### Day 1: March 10th, 2019
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Today's Progress**: Coded up an implementation in pytorch.  
 
-**Link(s) to work**: [Calculator App](http://www.example.com)
+**Thoughts:** 
+- Looks like you need to initialize all the layers with trainable parameters inside `__init__` function. Otherwise, network doesn't automatically identify it's parameters. The functional implementation doesn't seem to be of much use in such a case. 
+- Reworked the implementation; got it executing, but it's giving a weird output. Will need to fix it.
 
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+**Link to work:** Will add soon.
