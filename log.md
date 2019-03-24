@@ -39,3 +39,11 @@
 **Thoughts:** 
 - Ran the network today, and it started working. No clue why though! But the weird error stopped. 
 - Added some reproducibility code, just in case.
+
+### Day 5: March 24th, 2019
+
+**Today's Progress**: Finished Beta-notebook implementation in PyTorch.
+**Thoughts:** 
+- Finished the Beta-notebook implementation in PyTorch, even though a bit of correction is left :(
+- Some plotting and cleaning up of code is left. 
+- `ImageDataGenerator` in Keras generates batches of random affine transformed images from a single input sample. A quasi-similar implementation can be done in PyTorch as well, by Composing the relevant `transforms` together. On the TODO list.
